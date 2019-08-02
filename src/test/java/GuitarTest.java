@@ -8,6 +8,11 @@ import static org.junit.Assert.assertEquals;
 public class GuitarTest extends TestSetup{
 
     @Test
+    public void canCalculateMarkUp(){
+        assertEquals(450.00, guitar1.calculateMarkUp(), 0.01);
+    }
+
+    @Test
     public void canPlay(){
         assertEquals("Twang Taaaaaaawang!", guitar2.play());
     }
