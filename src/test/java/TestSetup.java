@@ -7,7 +7,7 @@ import shop.Shop;
 import java.util.ArrayList;
 
 public class TestSetup {
-    protected Guitar guitar1,guitar2;
+    protected Guitar guitar1,guitar2, guitar3, guitar4;
     protected Shop shop1, shop2;
     protected ArrayList<ISell> stock1, stock2;
 
@@ -38,5 +38,27 @@ public class TestSetup {
                 600.00,
                 1200.00,
                 InstrumentType.STRINGS);
+
+        guitar3 = new Guitar(
+                "Fender",
+                "Stratocaster",
+                "Electric",
+                6,
+                "Mahogany",
+                "Blue",
+                450.00,
+                900.00,
+                InstrumentType.STRINGS);
+        guitar4 = new Guitar(
+                "Gibson",
+                "Les Paul",
+                "Electric",
+                6,
+                "Teak",
+                "Tobacco",
+                600.00,
+                1200.00,
+                InstrumentType.STRINGS);
+
     }
 }

@@ -34,16 +34,4 @@ public class Shop {
         return name;
     }
 
-    public Double getTill() {
-        return till;
-    }
-
-    public void setTill(Double till) {
-        this.till = till;
-    }
-
-    public ArrayList<ISell> getStock() {
-        return stock;
-    }
-
 }
