@@ -10,6 +10,11 @@ public class ShopTest extends TestSetup {
     }
 
     @Test
+    public void hasTill(){
+        assertEquals(100000,shop1.getTill(),0.01);
+    }
+
+    @Test
     public void hasNoStockAtStart(){
         assertEquals(0, shop2.countStock());
     }

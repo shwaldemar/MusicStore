@@ -38,4 +38,8 @@ public class Shop {
         return name;
     }
 
+    public Double getTill() {
+        return till;
+    }
+
 }
