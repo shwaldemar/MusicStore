@@ -44,4 +44,12 @@ public class ShopTest extends TestSetup {
         assertEquals(0, shop2.countStock());
     }
 
+    @Test
+    public void canGetStoreTotalMargin(){
+        shop2.addStock(guitar1);
+        shop2.addStock(guitar3);
+        assertEquals(900,shop2.calculateTotalMargin(), 0.01);
+    }
+
+
 }

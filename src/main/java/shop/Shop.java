@@ -18,6 +18,14 @@ public class Shop {
     }
 
 
+    public Double calculateTotalMargin(){
+        Double margin = 0.00;
+        for(ISell item : stock) {
+            margin += item.calculateMarkUp();
+        }
+        return margin;
+    }
+
     public int countStock(){
         return stock.size();
     }
