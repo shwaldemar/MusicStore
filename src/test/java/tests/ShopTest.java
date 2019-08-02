@@ -60,7 +60,9 @@ public class ShopTest extends TestSetup {
     public void canGetStoreTotalMargin(){
         shop2.addStock(guitar1);
         shop2.addStock(guitar3);
-        assertEquals(900,shop2.calculateTotalMargin(), 0.01);
+        shop2.addStock(ksynth1);
+        shop2.addStock(ksynth2);
+        assertEquals(1300,shop2.calculateTotalMargin(), 0.01);
     }
 
 

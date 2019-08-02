@@ -220,23 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canClearStock">
-    <configuration name="KeyAndSynthTest.hasBuyPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaysMusicStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.KeyAndSynthTest" />
-      <option name="METHOD_NAME" value="hasBuyPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ShopTest.canGetStoreTotalMargin">
     <configuration name="KeyAndSynthTest.hasSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicStore" />
       <extension name="coverage">
@@ -285,6 +269,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest.canGetStoreTotalMargin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShopTest" />
+      <option name="METHOD_NAME" value="canGetStoreTotalMargin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShopTest.canRemoveStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicStore" />
       <extension name="coverage">
@@ -303,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest.canGetStoreTotalMargin" />
         <item itemvalue="JUnit.ShopTest.canClearStock" />
         <item itemvalue="JUnit.ShopTest.canRemoveStock" />
         <item itemvalue="JUnit.ShopTest.canAddStock" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasSellPrice" />
-        <item itemvalue="JUnit.KeyAndSynthTest.hasBuyPrice" />
       </list>
     </recent_temporary>
   </component>
