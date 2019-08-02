@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7480902-9b7f-44a4-9ab8-d91f212b0f89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/KeyAndSynth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GuitarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/KeyAndSynthTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/instruments/KeyAndSynth.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/RaysMusicStore.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/GuitarTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/KeyAndSynthTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/ShopTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/TestSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ShopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GuitarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ShopTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ShopTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/KeyAndSynthTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="413">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/TestSetup.java" />
         <option value="$PROJECT_DIR$/src/main/java/instruments/KeyAndSynth.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/KeyAndSynthTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/ShopTest.java" />
       </list>
     </option>
   </component>
@@ -235,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canAddStock">
+  <component name="RunManager" selected="JUnit.ShopTest.canRemoveStock">
     <configuration name="KeyAndSynthTest.hasBuyPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicStore" />
       <extension name="coverage">
@@ -263,22 +248,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.KeyAndSynthTest" />
       <option name="METHOD_NAME" value="hasKeyAndSynthType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeyAndSynthTest.hasMaterial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaysMusicStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.KeyAndSynthTest" />
-      <option name="METHOD_NAME" value="hasMaterial" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -316,13 +285,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest.canRemoveStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShopTest" />
+      <option name="METHOD_NAME" value="canRemoveStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest.canRemoveStock" />
         <item itemvalue="JUnit.ShopTest.canAddStock" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasSellPrice" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasBuyPrice" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasKeyAndSynthType" />
-        <item itemvalue="JUnit.KeyAndSynthTest.hasMaterial" />
       </list>
     </recent_temporary>
   </component>
@@ -340,9 +325,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="tests_in_RaysMusicStore - 2019.08.02 at 20h 36m 22s.xml">
-      <configuration name="tests in RaysMusicStore" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="KeyAndSynthTest_canCalculateMarkUp - 2019.08.02 at 20h 51m 39s.xml">
       <configuration name="KeyAndSynthTest.canCalculateMarkUp" configurationId="JUnit" />
     </history-entry>
@@ -369,6 +351,9 @@
     </history-entry>
     <history-entry file="KeyAndSynthTest_hasSellPrice - 2019.08.02 at 20h 57m 27s.xml">
       <configuration name="KeyAndSynthTest.hasSellPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopTest_canAddStock - 2019.08.02 at 21h 05m 30s.xml">
+      <configuration name="ShopTest.canAddStock" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -487,16 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ShopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/GuitarTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -527,7 +502,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/KeyAndSynthTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/ShopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

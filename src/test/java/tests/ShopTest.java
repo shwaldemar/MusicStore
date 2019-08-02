@@ -36,8 +36,12 @@ public class ShopTest extends TestSetup {
     public void canRemoveStock(){
         shop1.addStock(guitar3);
         shop1.addStock(guitar4);
+        shop1.addStock(ksynth3);
+        shop1.addStock(ksynth4);
         shop1.removeStock(guitar3);
-        assertEquals(1, shop1.countStock());
+        shop1.removeStock(ksynth4);
+
+        assertEquals(2, shop1.countStock());
     }
 
     @Test
