@@ -220,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canRemoveStock">
+  <component name="RunManager" selected="JUnit.ShopTest.canClearStock">
     <configuration name="KeyAndSynthTest.hasBuyPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicStore" />
       <extension name="coverage">
@@ -232,22 +232,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.KeyAndSynthTest" />
       <option name="METHOD_NAME" value="hasBuyPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeyAndSynthTest.hasKeyAndSynthType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaysMusicStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.KeyAndSynthTest" />
-      <option name="METHOD_NAME" value="hasKeyAndSynthType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,6 +269,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest.canClearStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShopTest" />
+      <option name="METHOD_NAME" value="canClearStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShopTest.canRemoveStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicStore" />
       <extension name="coverage">
@@ -303,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest.canClearStock" />
         <item itemvalue="JUnit.ShopTest.canRemoveStock" />
         <item itemvalue="JUnit.ShopTest.canAddStock" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasSellPrice" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasBuyPrice" />
-        <item itemvalue="JUnit.KeyAndSynthTest.hasKeyAndSynthType" />
       </list>
     </recent_temporary>
   </component>

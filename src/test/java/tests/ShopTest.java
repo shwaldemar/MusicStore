@@ -50,6 +50,8 @@ public class ShopTest extends TestSetup {
         shop2.addStock(guitar2);
         shop2.addStock(guitar3);
         shop2.addStock(guitar4);
+        shop2.addStock(ksynth1);
+        shop2.addStock(ksynth2);
         shop2.clearStock();
         assertEquals(0, shop2.countStock());
     }
