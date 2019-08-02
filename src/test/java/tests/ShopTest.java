@@ -26,7 +26,10 @@ public class ShopTest extends TestSetup {
     public void canAddStock(){
         shop2.addStock(guitar1);
         shop2.addStock(guitar2);
-        assertEquals(2, shop2.countStock());
+        shop2.addStock(ksynth1);
+        shop2.addStock(ksynth2);
+
+        assertEquals(4, shop2.countStock());
     }
 
     @Test

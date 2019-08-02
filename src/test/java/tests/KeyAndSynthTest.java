@@ -47,5 +47,5 @@ public class KeyAndSynthTest extends TestSetup {
     public void hasSellPrice(){
         Assert.assertEquals(400.00, ksynth4.getSellPrice(), 0.01);
     }
-    
+
 }

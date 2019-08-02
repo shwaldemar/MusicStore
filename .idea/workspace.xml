@@ -235,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KeyAndSynthTest.hasSellPrice">
+  <component name="RunManager" selected="JUnit.ShopTest.canAddStock">
     <configuration name="KeyAndSynthTest.hasBuyPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicStore" />
       <extension name="coverage">
@@ -284,22 +284,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyAndSynthTest.hasModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaysMusicStore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.KeyAndSynthTest" />
-      <option name="METHOD_NAME" value="hasModel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KeyAndSynthTest.hasSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaysMusicStore" />
       <extension name="coverage">
@@ -316,13 +300,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopTest.canAddStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaysMusicStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShopTest" />
+      <option name="METHOD_NAME" value="canAddStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest.canAddStock" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasSellPrice" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasBuyPrice" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasKeyAndSynthType" />
         <item itemvalue="JUnit.KeyAndSynthTest.hasMaterial" />
-        <item itemvalue="JUnit.KeyAndSynthTest.hasModel" />
       </list>
     </recent_temporary>
   </component>
