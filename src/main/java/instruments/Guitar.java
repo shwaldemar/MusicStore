@@ -1,6 +1,6 @@
 package instruments;
 
-public class Guitar extends Instrument {
+public class Guitar extends Instrument implements IPlay{
 
     private String model;
     private String guitarType;
@@ -22,6 +22,10 @@ public class Guitar extends Instrument {
         this.model = model;
         this.guitarType = guitarType;
         this.numStrings = numStrings;
+    }
+
+    public String play(){
+        return "Twang Taaaaaaawang!";
     }
 
     public String getModel() {

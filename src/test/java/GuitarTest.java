@@ -8,6 +8,11 @@ import static org.junit.Assert.assertEquals;
 public class GuitarTest extends TestSetup{
 
     @Test
+    public void canPlay(){
+        assertEquals("Twang Taaaaaaawang!", guitar2.play());
+    }
+
+    @Test
     public void hasMake(){
         assertEquals("Fender", guitar1.getMake());
     }
