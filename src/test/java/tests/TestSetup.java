@@ -6,7 +6,6 @@ import instruments.*;
 import org.junit.Before;
 import shop.IShop;
 import shop.Shop;
-//import suppliers.Supplier;
 
 import java.util.ArrayList;
 
@@ -24,6 +23,8 @@ public class TestSetup {
     //Customers
     protected Customer customer1, customer2;
     protected ArrayList<IBuy> purchases1, purchases2;
+
+    //Shop ArrayLists of customers
     protected ArrayList<IShop> customers1, customers2;
 
     @Before
@@ -128,6 +129,7 @@ public class TestSetup {
                 400.00,
                 InstrumentType.KEYSANDSYNTHS);
 
+        //Drums
         drum1 = new Drum(
                 "Bongo",
                 "Banana",

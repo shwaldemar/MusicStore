@@ -135,35 +135,66 @@ public class ShopTest extends TestSetup {
     }
 
     @Test
+    public void canBuyDrum(){
+        shop1.addStock(drum2);
+        assertEquals(1, shop1.countStock());
+        shop1.makePayment(drum2.getBuyPrice());
+        assertEquals(99900.00, shop1.getTill(),0.01);
+
+        shop2.addStock(drum3);
+        assertEquals(1, shop2.countStock());
+        shop2.makePayment(drum3.getBuyPrice());
+        assertEquals(99900.00, shop2.getTill(),0.01);
+    }
+
+    @Test
     public void shopsCanSellAndCustomersCanBuyGuitarsKSynthsAndDrums(){
 
+        //Shop1 Transaction test
         shop1.addStock(ksynth3);
         shop1.addStock(drum1);
         assertEquals(300.00, shop1.calculateTotalMargin(), 0.01);
+
         shop1.addCustomer(customer2);
         assertEquals(1, shop1.countCustomers());
+
+        assertEquals("It's the sound of AxelF and the 80ies", ksynth3.play());
+        assertEquals("KaBoom!", drum1.play());
+
         shop1.removeStock(ksynth3);
         shop1.removeStock(drum1);
         assertEquals(0, shop1.countStock());
+
         shop1.receivePayment(ksynth3.getSellPrice());
         shop1.receivePayment(drum1.getSellPrice());
         assertEquals(100600.00, shop1.getTill(),0.01);
+
         customer2.payForItem(600.00);
         assertEquals(99400.00, customer2.getWallet(),0.01);
+
         customer2.addItem(ksynth3);
         customer2.addItem(drum1);
         assertEquals(2, customer2.countPurchases());
 
+        //Shop2 Transaction test
         shop2.addStock(guitar1);
         assertEquals(450, shop2.calculateTotalMargin(),0.01);
+
         shop2.addCustomer(customer1);
         assertEquals(1, shop2.countCustomers());
+
+        assertEquals("It's the sound of AxelF and the 80ies", ksynth3.play());
+        assertEquals("KaBoom!", drum1.play());
+
         shop2.removeStock(guitar1);
         assertEquals(0,shop2.countStock());
+
         shop2.receivePayment(guitar1.getSellPrice());
         assertEquals(100900.00, shop2.getTill(),0.01);
+
         customer1.payForItem(900.00);
         assertEquals(99100.00, customer1.getWallet(),0.01);
+
         customer1.addItem(guitar1);
         assertEquals(1, customer1.countPurchases());
     }
