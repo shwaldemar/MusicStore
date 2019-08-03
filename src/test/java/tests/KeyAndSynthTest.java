@@ -1,12 +1,9 @@
 package tests;
 
-import instruments.IPlay;
-import instruments.ISell;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class KeyAndSynthTest extends TestSetup {
-
 
     @Test
     public void canCalculateMarkUp(){

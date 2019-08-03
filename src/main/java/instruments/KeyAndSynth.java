@@ -1,6 +1,8 @@
 package instruments;
 
-public class KeyAndSynth extends Instrument implements IPlay, ISell{
+import customers.IBuy;
+
+public class KeyAndSynth extends Instrument implements IPlay, ISell, IBuy {
 
     private String model;
     private String keyType;

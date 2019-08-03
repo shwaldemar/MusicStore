@@ -10,11 +10,13 @@ public class Shop {
     private String name;
     private Double till;
     private ArrayList<ISell> stock;
+    private ArrayList<IShop> customers;
 
-    public Shop(String name, Double till, ArrayList<ISell> stock) {
+    public Shop(String name, Double till, ArrayList<ISell> stock, ArrayList<IShop> customers) {
         this.name = name;
         this.till = till;
-        this.stock = stock;
+        this.stock = new ArrayList<ISell>();
+        this.customers = new ArrayList<IShop>();
     }
 
 
@@ -36,6 +38,23 @@ public class Shop {
 
     public void removeStock(ISell item){
         stock.remove(item);
+    }
+
+    public void receivePayment(Double cashPaid){
+
+        till = till + cashPaid;
+    }
+
+    public void makePayment(Double cashPaid){
+
+        till = till - cashPaid;
+    }
+
+    public int countCustomers(){
+        return customers.size();}
+
+    public void addCustomer(IShop customer){
+        customers.add(customer);
     }
 
     public void clearStock(){

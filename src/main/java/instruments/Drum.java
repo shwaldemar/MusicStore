@@ -2,28 +2,28 @@ package instruments;
 
 import customers.IBuy;
 
-public class Guitar extends Instrument implements IPlay, ISell, IBuy {
+public class Drum extends Instrument implements IPlay, ISell, IBuy {
 
     private String model;
-    private String guitarType;
-    private int numStrings;
+    private String drumType;
+    private int size;
 
-    public Guitar(
+    public Drum(
             String make,
-            String model,
-            String guitarType,
-            int numStrings,
             String material,
             String colour,
             Double buyPrice,
             Double sellPrice,
-            InstrumentType type
+            InstrumentType type,
+            String model,
+            String drumType,
+            int size
     )
     {
         super(make, material, colour, buyPrice, sellPrice, type);
         this.model = model;
-        this.guitarType = guitarType;
-        this.numStrings = numStrings;
+        this.drumType = drumType;
+        this.size = size;
     }
 
     public Double calculateMarkUp(){
@@ -31,18 +31,19 @@ public class Guitar extends Instrument implements IPlay, ISell, IBuy {
     }
 
     public String play(){
-        return "Twang Taaaaaaawang!";
+        return "KaBoom!";
     }
 
     public String getModel() {
         return model;
     }
 
-    public String getGuitarType() {
-        return guitarType;
+    public String getDrumType() {
+        return drumType;
     }
 
-    public int getNumStrings() {
-        return numStrings;
+    public int getSize() {
+        return size;
     }
 }
+
